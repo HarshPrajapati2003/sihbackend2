@@ -27,6 +27,10 @@ def preprocess_image(image_file):
 def hello_world():
     return "Wlcome to HealthMed Lens"
 
+@app.route('/sample')
+def hello_world():
+    return "sample req. for HealthMed Lens"
+
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
