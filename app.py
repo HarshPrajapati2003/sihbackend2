@@ -27,10 +27,6 @@ def preprocess_image(image_file):
 def my_index():
     return render_template("index.html", flask_token="Hello   world")
 
-@app.route('/sample')
-def hello_world():
-    return "sample req. for HealthMed Lens"
-
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
@@ -105,4 +101,4 @@ def predict():
         print("this is ",str(e))
         return jsonify({'error': 'An error occurred during prediction'}), 500
 
-app.run(debug=True)
+# app.run(debug=True)
