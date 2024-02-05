@@ -101,4 +101,4 @@ def predict():
         print("this is ",str(e))
         return jsonify({'error': 'An error occurred during prediction'}), 500
 
-app.run(debug=True)
+# app.run(debug=True)
