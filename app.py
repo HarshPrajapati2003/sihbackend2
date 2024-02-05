@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 import json
@@ -24,8 +24,8 @@ def preprocess_image(image_file):
     return img
 
 @app.route('/')
-def hello_world():
-    return "Wlcome to HealthMed Lens"
+def my_index():
+    return render_template("index.html", flask_token="Hello   world")
 
 @app.route('/sample')
 def hello_world():
@@ -105,3 +105,4 @@ def predict():
         print("this is ",str(e))
         return jsonify({'error': 'An error occurred during prediction'}), 500
 
+app.run(debug=True)

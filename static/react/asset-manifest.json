@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/react/static/css/main.73eed338.css",
+    "main.js": "/static/react/static/js/main.2f9f4592.js",
+    "static/media/profile-2.png": "/static/react/static/media/profile-2.4752a9db34458eeffcfa.png",
+    "static/media/profile-1.png": "/static/react/static/media/profile-1.0261bb4efe7a9075c56a.png",
+    "static/media/Plant3.jpg": "/static/react/static/media/Plant3.bd7d455bbe1f3c3003a2.jpg",
+    "static/media/profile-3.png": "/static/react/static/media/profile-3.530bb2fd7ece3dd3b3be.png",
+    "static/media/profile-4.png": "/static/react/static/media/profile-4.3c44185ab9c84614038f.png",
+    "static/media/plant2.webp": "/static/react/static/media/plant2.c446d12b65356c7a711c.webp",
+    "static/media/GreenMedLens.jpg": "/static/react/static/media/GreenMedLens.9cb8bac5c2cb98d0ed2c.jpg",
+    "static/media/aboutPlant.avif": "/static/react/static/media/aboutPlant.7e8976ddcd015fc0b8ce.avif",
+    "../../templates/index.html": "/static/react/../../templates/index.html",
+    "static/media/getFetch.cjs": "/static/react/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.73eed338.css.map": "/static/react/static/css/main.73eed338.css.map",
+    "main.2f9f4592.js.map": "/static/react/static/js/main.2f9f4592.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73eed338.css",
+    "static/js/main.2f9f4592.js"
+  ]
+}
